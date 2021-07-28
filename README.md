@@ -50,7 +50,7 @@ No diretório do projeto no mesmo nível de pasta de **docker-compose.yml** digi
 ```
 docker-compose up
 ```
-O ambiente está quase pronto, no entanto, alguns procedimentos de migrações, cadastro de superusuário, dados prévios das aplicações (fixtures), devem estar presentes na aplicação para que seja possível o primeiro acesso. O Comando a seguir fará isso pra você:
+O ambiente está quase pronto, no entanto, alguns procedimentos de migrações. O Comando a seguir fará isso pra você:
 
 ```
 docker-compose run web python3 manage.py migrate
