@@ -1,3 +1,19 @@
-from django.shortcuts import render
+from rest_framework import viewsets, mixins
+from .models import Marca, Carro
+from .serializers import MarcaSerializer, CarroSerializer, CarroListSerializer
 
-# Create your views here.
+
+class MarcaViewSet(viewsets.ModelViewSet):
+    serializer_class = MarcaSerializer
+    queryset = Marca.objects.all()
+
+
+class CarroViewSet(viewsets.ModelViewSet):
+    serializer_class = CarroSerializer
+    queryset = Carro.objects.all()
+
+    def get_serializer_class(self):
+        if self.action == 'list':
+            return CarroListSerializer 
+        else:
+            return CarroSerializer
