@@ -41,7 +41,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 No seu terminal linux, em um diretório de sua preferência para projetos, digite:
 
 ```
-https://github.com/hevertongomes/cars-api/
+git clone https://github.com/hevertongomes/cars-api/
 
 ```
 
