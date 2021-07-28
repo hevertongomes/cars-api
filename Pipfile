@@ -9,6 +9,7 @@ djangorestframework = "*"
 django-cors-headers = "*"
 django-filter = "*"
 psycopg2-binary = "*"
+drf-yasg = "*"
 
 [dev-packages]
 
