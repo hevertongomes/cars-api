@@ -1,4 +1,4 @@
-# CARD-API
+# CARS-API
 
 Uma api para gerência de carros e marcas
 
