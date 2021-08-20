@@ -4,7 +4,7 @@ Uma api para gerência de carros e marcas
 
 ## Iniciando
 
-O ERP foi construido utilizando o Framework Python Django em sua versão 3.2.5 justamente com o Djando rest framework versão 3.12.4 e interpretador Python 3.7.3 >.
+O Cars-API foi construido utilizando o Framework Python Django em sua versão 3.2.5 justamente com o Djando rest framework versão 3.12.4 e interpretador Python 3.7.3.
 
 
 ### Pré-requisitos
